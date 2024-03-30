@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-green-50
+  }
+
+  span {
+    @apply px-2 py-1 bg-green-200 text-green-700 font-bold rounded-md
+  }
+  p{
+    @apply text-lg font-medium text-slate-800
+  }
+}
+
+@layer components {
+  .active {
+    @apply text-green-500
+  }
+}
